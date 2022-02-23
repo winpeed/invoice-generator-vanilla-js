@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Invoice Generator - Vanilla JS Project from Scrimba</title>
+  </head>
+  <body>
+    <main>
+      <section class="top">
+        <h1>Invoice creator</h1>
+        <p>Thanks for choosing GoodCorp, LLC!</p>
+      </section>
+
+      <section class="bottom">
+        <div class="btn-wrapper">
+          <button id="car-wash">Wash Car: $10</button>
+          <button id="mow-lawn">Mow Lawn: $20</button>
+          <button id="pull-weeds">Pull Weeds: $30</button>
+        </div>
+
+        <div class="desc-header">
+          <span>task</span>
+          <span>total</span>
+        </div>
+
+        <div class="all-items">
+            <!-- <div class="item">
+                <div>
+                  <h2>Wash Car</h2>
+                  <span>Remove</span>
+                </div>
+                <h3><span>$</span>10</h3>
+              </div> -->
+        </div>
+       
+
+        <div class="divider"></div>
+
+        <div class="desc-header">
+          <span>notes</span>
+          <span>total amount</span>
+        </div>
+
+        <div class="footer-note">
+          <p>We accept cash, credit card, or PayPal</p>
+          <h4 id="total">$0</h4>
+        </div>
+
+        <button class="btn-invoice"><img src="email_white_24dp.svg" alt="Email Icon" />Send Invoice</button>
+      </section>
+    </main>
+
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
