@@ -75,7 +75,7 @@ main {
 }
 
 .bottom {
-  padding: 2em 1em;
+  padding: 2em 0.6em;
   background: var(--color-white);
 }
 
