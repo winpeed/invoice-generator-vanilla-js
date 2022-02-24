@@ -217,6 +217,12 @@ main {
   line-height: 15px;
 }
 
+@media (max-width: 450px) {
+  .footer-note p {
+    width: 50%;
+  }
+}
+
 .hide {
   display: none;
 }
